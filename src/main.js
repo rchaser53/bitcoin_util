@@ -17,6 +17,8 @@ const history = [
 
 const calculateTotalAverage = (history) => {
   return history.reduce((stack, next) => {
+    if (next.type === 'sell') return stack
+
     stack.spendMoney += next.spendMoney
     stack.amount += next.amount
     stack.rate += next.rate
