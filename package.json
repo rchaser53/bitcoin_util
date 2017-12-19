@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin_util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaser53/bitcoin_util.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchaser53/bitcoin_util/issues"
+  },
+  "homepage": "https://github.com/rchaser53/bitcoin_util#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "prettier": "^1.9.2"
+  },
+  "dependencies": {
+    "mathjs": "^3.18.0"
+  }
+}
