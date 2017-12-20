@@ -1,8 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 
-const mathjs = require('mathjs')
-
 const { convertBfToCC } = require('./calculateBf')
 
 const unRegistedData = [
@@ -10,20 +8,20 @@ const unRegistedData = [
     type: 'sell',
     rate: 2100000,
     amount: 0.2,
-    spendMoney: 420000,
+    spendMoney: 420000
   },
   {
     type: 'buy',
     rate: 1211329,
     amount: 0.2,
-    spendMoney: 242266,
+    spendMoney: 242266
   },
   {
     type: 'buy',
     rate: 1158101,
     amount: 0.2,
-    spendMoney: 231621,
-  },
+    spendMoney: 231621
+  }
 ]
 
 const bfHistory = JSON.parse(
@@ -45,6 +43,6 @@ const calculateTotalAverage = history => {
   )
 }
 
-const { amount, spendMoney, rate } = calculateTotalAverage(history)
+const { amount, spendMoney } = calculateTotalAverage(history)
 
 console.log(spendMoney / amount)
