@@ -1,51 +1,51 @@
 {
-  "name": "bitcoin_util",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "main": "index.js",
-  "scripts": {
-    "lerna": "lerna",
-    "tsc": "tsc -p ./sample/tsconfig.json",
-    "nyan": "npm run prettier && npm run eslint",
-    "tslint": "node ./node_modules/.bin/tslint -p tslint.json **/*.ts -e node_modules",
-    "eslint": "node ./node_modules/.bin/eslint src/*.js",
-    "prettier": "prettier --write \"**/*.{md,js,json}\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rchaser53/bitcoin_util.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rchaser53/bitcoin_util/issues"
-  },
-  "homepage": "https://github.com/rchaser53/bitcoin_util#readme",
-  "devDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-prettier": "^2.4.0",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-standard": "^3.0.1",
-    "lerna": "^2.5.1",
-    "prettier": "^1.9.2",
-    "tslint": "^5.8.0",
-    "typescript": "^2.6.2"
-  },
-  "dependencies": {
-    "mathjs": "^3.18.0"
-  },
-  "workspaces": [
-    "average",
-    "sample"
-  ]
+	"name": "bitcoin_util",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"lerna": "lerna",
+		"tsc": "tsc -p ./sample/tsconfig.json",
+		"es-nyan": "npm run prettier && npm run eslint",
+		"ts-nyan": "npm run prettier && npm run tslint",
+		"tslint": "node ./node_modules/.bin/tslint --fix -p tslint.json sample/**/*.ts -e node_modules",
+		"eslint": "node ./node_modules/.bin/eslint src/*.js",
+		"prettier": "prettier --write \"**/*.{md,js,ts,json}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rchaser53/bitcoin_util.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rchaser53/bitcoin_util/issues"
+	},
+	"homepage": "https://github.com/rchaser53/bitcoin_util#readme",
+	"devDependencies": {
+		"eslint": "^4.13.1",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-standard": "^11.0.0-beta.0",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-node": "^5.2.1",
+		"eslint-plugin-prettier": "^2.4.0",
+		"eslint-plugin-promise": "^3.6.0",
+		"eslint-plugin-react": "^7.5.1",
+		"eslint-plugin-standard": "^3.0.1",
+		"lerna": "^2.5.1",
+		"prettier": "^1.9.2",
+		"tslint": "^5.8.0",
+		"tslint-config-prettier": "^1.6.0",
+		"tslint-plugin-prettier": "^1.3.0",
+		"typescript": "^2.6.2"
+	},
+	"dependencies": {
+		"mathjs": "^3.18.0"
+	},
+	"workspaces": ["average", "sample"]
 }

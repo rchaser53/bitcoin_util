@@ -1,102 +1,102 @@
 [
-  {
-    "id": 92292783,
-    "side": "BUY",
-    "price": 2118610,
-    "size": 0.00911219,
-    "exec_date": "2017-12-16T13:35:26.68",
-    "child_order_id": "JOR20171216-133518-700255",
-    "commission": 0.00001002,
-    "child_order_acceptance_id": "JRF20171216-223513-201546"
-  },
-  {
-    "id": 92292763,
-    "side": "BUY",
-    "price": 2118610,
-    "size": 0.00018781,
-    "exec_date": "2017-12-16T13:35:24.397",
-    "child_order_id": "JOR20171216-133518-700255",
-    "commission": 2.1e-7,
-    "child_order_acceptance_id": "JRF20171216-223513-201546"
-  },
-  {
-    "id": 90259691,
-    "side": "SELL",
-    "price": 1936317,
-    "size": 0.01,
-    "exec_date": "2017-12-13T16:14:08.527",
-    "child_order_id": "JOR20171213-161331-835641",
-    "commission": 0.000011,
-    "child_order_acceptance_id": "JRF20171214-011320-200294"
-  },
-  {
-    "id": 89775859,
-    "side": "BUY",
-    "price": 1930000,
-    "size": 0.01,
-    "exec_date": "2017-12-13T02:23:35.01",
-    "child_order_id": "JOR20171213-000457-515366",
-    "commission": 0.000011,
-    "child_order_acceptance_id": "JRF20171213-090454-324964"
-  },
-  {
-    "id": 89670158,
-    "side": "SELL",
-    "price": 1980000,
-    "size": 0.00420427,
-    "exec_date": "2017-12-12T23:06:18.21",
-    "child_order_id": "JOR20171212-230516-303993",
-    "commission": 0.00000462,
-    "child_order_acceptance_id": "JRF20171213-080514-315778"
-  },
-  {
-    "id": 89670050,
-    "side": "SELL",
-    "price": 1980000,
-    "size": 0.00169039,
-    "exec_date": "2017-12-12T23:06:08.443",
-    "child_order_id": "JOR20171212-230516-303993",
-    "commission": 0.00000186,
-    "child_order_acceptance_id": "JRF20171213-080514-315778"
-  },
-  {
-    "id": 89670045,
-    "side": "SELL",
-    "price": 1980000,
-    "size": 0.00410534,
-    "exec_date": "2017-12-12T23:06:07.943",
-    "child_order_id": "JOR20171212-230516-303993",
-    "commission": 0.00000452,
-    "child_order_acceptance_id": "JRF20171213-080514-315778"
-  },
-  {
-    "id": 85642586,
-    "side": "SELL",
-    "price": 1810296,
-    "size": 0.24,
-    "exec_date": "2017-12-08T13:41:51.59",
-    "child_order_id": "JOR20171208-134107-462039",
-    "commission": 0.000312,
-    "child_order_acceptance_id": "JRF20171208-224047-678556"
-  },
-  {
-    "id": 85185446,
-    "side": "BUY",
-    "price": 2050638,
-    "size": 0.24,
-    "exec_date": "2017-12-08T04:13:12.477",
-    "child_order_id": "JOR20171208-041311-471183",
-    "commission": 0.000312,
-    "child_order_acceptance_id": "JRF20171208-131308-161164"
-  },
-  {
-    "id": 84949186,
-    "side": "SELL",
-    "price": 2100000,
-    "size": 0.2,
-    "exec_date": "2017-12-07T23:10:22.2",
-    "child_order_id": "JOR20171207-230756-855305",
-    "commission": 0.00026,
-    "child_order_acceptance_id": "JRF20171208-080749-217360"
-  }
+	{
+		"id": 92292783,
+		"side": "BUY",
+		"price": 2118610,
+		"size": 0.00911219,
+		"exec_date": "2017-12-16T13:35:26.68",
+		"child_order_id": "JOR20171216-133518-700255",
+		"commission": 0.00001002,
+		"child_order_acceptance_id": "JRF20171216-223513-201546"
+	},
+	{
+		"id": 92292763,
+		"side": "BUY",
+		"price": 2118610,
+		"size": 0.00018781,
+		"exec_date": "2017-12-16T13:35:24.397",
+		"child_order_id": "JOR20171216-133518-700255",
+		"commission": 2.1e-7,
+		"child_order_acceptance_id": "JRF20171216-223513-201546"
+	},
+	{
+		"id": 90259691,
+		"side": "SELL",
+		"price": 1936317,
+		"size": 0.01,
+		"exec_date": "2017-12-13T16:14:08.527",
+		"child_order_id": "JOR20171213-161331-835641",
+		"commission": 0.000011,
+		"child_order_acceptance_id": "JRF20171214-011320-200294"
+	},
+	{
+		"id": 89775859,
+		"side": "BUY",
+		"price": 1930000,
+		"size": 0.01,
+		"exec_date": "2017-12-13T02:23:35.01",
+		"child_order_id": "JOR20171213-000457-515366",
+		"commission": 0.000011,
+		"child_order_acceptance_id": "JRF20171213-090454-324964"
+	},
+	{
+		"id": 89670158,
+		"side": "SELL",
+		"price": 1980000,
+		"size": 0.00420427,
+		"exec_date": "2017-12-12T23:06:18.21",
+		"child_order_id": "JOR20171212-230516-303993",
+		"commission": 0.00000462,
+		"child_order_acceptance_id": "JRF20171213-080514-315778"
+	},
+	{
+		"id": 89670050,
+		"side": "SELL",
+		"price": 1980000,
+		"size": 0.00169039,
+		"exec_date": "2017-12-12T23:06:08.443",
+		"child_order_id": "JOR20171212-230516-303993",
+		"commission": 0.00000186,
+		"child_order_acceptance_id": "JRF20171213-080514-315778"
+	},
+	{
+		"id": 89670045,
+		"side": "SELL",
+		"price": 1980000,
+		"size": 0.00410534,
+		"exec_date": "2017-12-12T23:06:07.943",
+		"child_order_id": "JOR20171212-230516-303993",
+		"commission": 0.00000452,
+		"child_order_acceptance_id": "JRF20171213-080514-315778"
+	},
+	{
+		"id": 85642586,
+		"side": "SELL",
+		"price": 1810296,
+		"size": 0.24,
+		"exec_date": "2017-12-08T13:41:51.59",
+		"child_order_id": "JOR20171208-134107-462039",
+		"commission": 0.000312,
+		"child_order_acceptance_id": "JRF20171208-224047-678556"
+	},
+	{
+		"id": 85185446,
+		"side": "BUY",
+		"price": 2050638,
+		"size": 0.24,
+		"exec_date": "2017-12-08T04:13:12.477",
+		"child_order_id": "JOR20171208-041311-471183",
+		"commission": 0.000312,
+		"child_order_acceptance_id": "JRF20171208-131308-161164"
+	},
+	{
+		"id": 84949186,
+		"side": "SELL",
+		"price": 2100000,
+		"size": 0.2,
+		"exec_date": "2017-12-07T23:10:22.2",
+		"child_order_id": "JOR20171207-230756-855305",
+		"commission": 0.00026,
+		"child_order_acceptance_id": "JRF20171208-080749-217360"
+	}
 ]

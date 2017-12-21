@@ -17,18 +17,9 @@
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
 		"forceConsistentCasingInFileNames": true,
-		"lib":[
-			"es2015",
-			"es2016",
-			"dom",
-			"es2017.object"
-		]
+		"lib": ["es2015", "es2016", "dom", "es2017.object"]
 	},
-	"compileOnSave":false,
-	"include":[
-		"./ts/**/*.ts"
-	],
-	"exclude":[
-		"node_modules"
-	]
+	"compileOnSave": false,
+	"include": ["./ts/**/*.ts"],
+	"exclude": ["node_modules"]
 }
