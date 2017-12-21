@@ -1,2 +1,2 @@
-const hoge = require('sample')
+const hoge = require('sample/js')
 hoge.nyan()
