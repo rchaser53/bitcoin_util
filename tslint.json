@@ -1,11 +1,12 @@
 {
 	"rulesDirectory": ["tslint-plugin-prettier"],
-	"extends": ["tslint-config-prettier"],
+	"extends": ["tslint:latest", "tslint-config-prettier"],
 	"rules": {
 		"prettier": true,
 		"class-name": true,
+		"semicolon": false,
 		"comment-format": [true, "check-space"],
-		"indent": [true, 2],
+		"indent": [true, "tabs"],
 		"no-duplicate-variable": true,
 		"no-eval": true,
 		"no-internal-module": true,
